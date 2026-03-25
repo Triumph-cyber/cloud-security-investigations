@@ -53,13 +53,23 @@ The organization requires:
 
 2. Created VNet `myVNet` (10.0.0.0/16) and configured subnet `default` (10.0.0.0/24) within the VNet.
 
-![Create VNet](./az500/images/01-create-VNet.png)
+<p align="center"><strong>Figure 1: Create VNet </strong></p>
+
+<p align="center"> <img src="images/az500/images/01-create-VNet.png" width="700" height="400">
+</p>
 
 3. Created Application Groups (ASGs) named: `AsgWeb`, `AsgMgmt`.
 
-![Create ASG WebServer](./az500/images/02-create-AsgWebservers.png)
+<p align="center"><strong>Figure 2: Create ASG WebServer </strong></p>
 
-![Create ASG Management Server](./az500/images/03-create-myAsg-Mgmt-Server.png)
+<p align="center"> <img src="images/images/02-create-AsgWebservers.png" width="700" height="400">
+</p>
+
+
+<p align="center"><strong>Figure 3: Create ASG Management Server </strong></p>
+
+<p align="center"> <img src="images/03-create-myAsg-Mgmt-Server.png" width="700" height="400">
+</p>
 
 4. Created a Network Security Group (NSG) `myNSG` and added inbound rules:
 
@@ -67,29 +77,44 @@ The organization requires:
 
    - Allow TCP 3389 → `AsgMgmt`
 
-![Create NSG rules](./az500/images/05-create-NSG-rules.png)
+<p align="center"><strong>Figure 4: Create NSG rules </strong></p>
+
+<p align="center"> <img src="images/05-create-NSG-rules.png" width="700" height="400">
+</p>
 
 5. Associated `myNSG` with `mySubnet`.
 
 6. Deployed Web Server VM `VmWeb` and Management server VM `VmMgmt` and assigned it to `AsgWeb` and `AsgMgmt` respectively.
 
-![Create VMs](./az500/images/07-create-VMs.png)
+<p align="center"><strong>Figure 5: Create VMs </strong></p>
+
+<p align="center"> <img src="images/az500/images/07-create-VMs.png" width="700" height="400">
+</p>
 
 7. Installed IIS role on the Web Server.
 
-![IIS install](./az500/images/10-IIS-install.png)
+<p align="center"><strong>Figure 6: IIS install </strong></p>
+
+<p align="center"> <img src="images/10-IIS-install.png" width="700" height="400">
+</p>
 
 8. Tested RDP access:
 
 - Successful connection to Management Server.
 
-![RDP connect](./az500/images/09-connect-to-VM .png)
+<p align="center"><strong>Figure 7: RDP connect </strong></p>
+
+<p align="center"> <img src="images/09-connect-to-VM .png" width="700" height="400">
+</p>
 
 9. Tested web access
 
 - IIS default page successfully displayed from internet browser.
 
-![IIS server](./az500/images/11-IIS_Server.png)
+<p align="center"><strong>Figure 8: IIS server </strong></p>
+
+<p align="center"> <img src="images/11-IIS_Server.png" width="700" height="400">
+</p>
 
 
 ## Security Outcome
