@@ -55,14 +55,14 @@ The organization requires:
 
 <p align="center"><strong>Figure 1: Create VNet </strong></p>
 
-<p align="center"> <img src="images/az500/images/01-create-VNet.png" width="700" height="400">
+<p align="center"> <img src="images/01-create-VNet.png" width="700" height="400">
 </p>
 
 3. Created Application Groups (ASGs) named: `AsgWeb`, `AsgMgmt`.
 
 <p align="center"><strong>Figure 2: Create ASG WebServer </strong></p>
 
-<p align="center"> <img src="images/images/02-create-AsgWebservers.png" width="700" height="400">
+<p align="center"> <img src="images/02-create-AsgWebservers.png" width="700" height="400">
 </p>
 
 
@@ -88,7 +88,7 @@ The organization requires:
 
 <p align="center"><strong>Figure 5: Create VMs </strong></p>
 
-<p align="center"> <img src="images/az500/images/07-create-VMs.png" width="700" height="400">
+<p align="center"> <img src="images/07-create-VMs.png" width="700" height="400">
 </p>
 
 7. Installed IIS role on the Web Server.
