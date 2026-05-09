@@ -23,7 +23,7 @@ The objective of this project was to:
 This project provided hands-on experience with SIEM configuration, log ingestion, incident generation, alert investigation, and SOC analyst workflows.
 
 
-# Techologies & Services Used
+# Technologies & Services Used
 
 1. Microsoft Azure
 
@@ -67,7 +67,7 @@ A dedicated Azure Resource Group was created to organize and manage all resource
 
 <p align="center"><strong>Figure 1: Azure Resource Group Creation </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/01-create-RG.png" width="700" height="400">
+<p align="center"> <img src="images/01-create-RG.png" width="700" height="400">
 </p>
 
 Purpose:
@@ -93,7 +93,7 @@ Configuration Included:
 
 <p align="center"><strong>Figure 2: Virtual Machine Creation </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/02-create-VM.png" width="700" height="400">
+<p align="center"> <img src="images/02-create-VM.png" width="700" height="400">
 </p>
 
 Purpose:
@@ -111,7 +111,7 @@ An Azure Log Analytics Workspace was created to collect, store, and analyze logs
 
 <p align="center"><strong>Figure 3: Log Analytics Workspace Creatio </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/03-create-LAW.png" height="400">
+<p align="center"> <img src="images/03-create-LAW.png" height="400">
 </p>
 
 Purpose:
@@ -130,7 +130,7 @@ A Data Collection Rule (DCR) was created to define which logs and telemetry data
 
 <p align="center"><strong>Figure 4:  Data Collection Rule </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/04-DCR-configuration.png" width="700" height="400">
+<p align="center"> <img src="images/04-DCR-configuration.png" width="700" height="400">
 </p>
 
 Purpose:
@@ -156,7 +156,7 @@ Actions Performed:
 
 <p align="center"><strong>Figure 5: Virtual Machine Connection </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/05-connect-to-VM.png" width="700" height="400">
+<p align="center"> <img src="images/05-connect-to-VM.png" width="700" height="400">
 </p>
 
 Challenges Encountered:
@@ -172,7 +172,7 @@ Microsoft Sentinel was added and connected to the existing Log Analytics Workspa
 
 <p align="center"><strong>Figure 6: Microsoft Sentinel Deployment </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/06-add-sentinel-to-workspace.png" width="700" height="400">
+<p align="center"> <img src="images/06-add-sentinel-to-workspace.png" width="700" height="400">
 </p>
 
 Purpose:
@@ -194,7 +194,7 @@ Configured Connectors:
 
 <p align="center"><strong>Figure 7: Azure Activity Connector </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/07-data-connectors.png" width="700" height="400">
+<p align="center"> <img src="images/07-data-connectors.png" width="700" height="400">
 </p>
 
 * Microsoft Entra ID Sign-In Logs
@@ -220,7 +220,7 @@ Rules Included:
 
 <p align="center"><strong>Figure 8: Anomalous sign-in Rule </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/08-analytics-rules1.png" width="700" height="400">
+<p align="center"> <img src="images/08-analytics-rules1.png" width="700" height="400">
 </p>
 
 * Unusual Location Login Detection
@@ -229,7 +229,7 @@ Rules Included:
 
 <p align="center"><strong>Figure 9: Privilege Escalation Rule </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/09-analytics-rules2.png" width="700" height="400">
+<p align="center"> <img src="images/09-analytics-rules2.png" width="700" height="400">
 </p>
 
 Purpose:
@@ -254,7 +254,7 @@ Incorrect credentials were repeatedly used to simulate suspicious authentication
 
 <p align="center"><strong>Figure 10: Failed Sign-In Attempts </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/11-failed-sign-in.png" width="700" height="400">
+<p align="center"> <img src="images/11-failed-sign-in.png" width="700" height="400">
 </p>
 
 
@@ -269,7 +269,7 @@ A new user account was created and assigned elevated privileges to simulate priv
 
 <p align="center"><strong>Figure 11: Failed Sign-In Attempts </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/11-failed-sign-in.png" width="700" height="400">
+<p align="center"> <img src="images/11-failed-sign-in.png" width="700" height="400">
 </p>
 
 
@@ -288,7 +288,7 @@ Diagnostic settings were enabled to ensure logs were properly collected and forw
 
 <p align="center"><strong>Figure 12: Diagnostic Settings </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/13-diagnostic-settings.png" width="700" height="400">
+<p align="center"> <img src="images/13-diagnostic-settings.png" width="700" height="400">
 </p>
 
 
@@ -319,7 +319,7 @@ Verification Included:
 
 <p align="center"><strong>Figure 13: Alert Generation </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/14-alerts-generated.png" width="700" height="400">
+<p align="center"> <img src="images/14-alerts-generated.png" width="700" height="400">
 </p>
 
 
@@ -329,7 +329,7 @@ Generated incidents were investigated within Microsoft Sentinel.
 
 <p align="center"><strong>Figure 14: Incident Investigation </strong></p>
 
-<p align="center"> <img src="az500/AZ500-03/images/18-closed-incidents.png" width="700" height="400">
+<p align="center"> <img src="images/18-closed-incidents.png" width="700" height="400">
 </p>
 
 
